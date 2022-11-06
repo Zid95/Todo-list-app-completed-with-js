@@ -100,13 +100,17 @@ body{
     width: 50%;
     float: left;
     padding: 10px;
+    font-size: 18px;
+
 }
+
 
 .task-stats .tasks-completed{
     width: 50%;
     float: right;
     padding: 10px;
     text-align: right;
+    font-size: 18px;
 }
 
 .task-stats .tasks-count span,
@@ -120,8 +124,24 @@ body{
 
 .task-stats .tasks-count span{
     background-color: #E91E63;
+    width: 23px;
+    height: 20px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: -1px;
+    left: 5px;
 }
 
 .task-stats .tasks-completed span{
     background-color: #03A9F4;
+    width: 23px;
+    height: 20px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: -1px;
+    left: 5px;
 }
